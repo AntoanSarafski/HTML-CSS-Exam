@@ -106,6 +106,14 @@ a {
     width: 100%;
 }
 
+.pricing-plans > .section-container {
+    background-color: #F3F5FA
+}
+
+.pricing-plans .plans-container {
+    background-color: white;
+}
+
 .section-container .plans-container {
     display: flex;
     flex-direction: row;
