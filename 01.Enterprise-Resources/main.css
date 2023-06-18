@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+    font: 12px/1.5 "Inter", sans-serif;
+    background-color: #D9D9D9;
+}
+
+.site {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 24px;
+    
+}
+
+.cards-list {
+    display: flex;
+    gap: 20px;
+}
+
+.image-container {
+    display: block;
+}
+
+.card {
+    flex: 1 0 30%;
+    background-color: #D9D9D9;
+    box-shadow: 3px 2px #CBCBCB;
+}
+
+.card h2 {
+    color: #6C7584;
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card .desc{
+    padding: 20px 0;
+    color: #6C7584;
+    border-bottom: 1px solid #6C7584;;
+}
+
+.card .card-footer {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .card-footer .photo-container {
+    max-width: 40px;
+}
+
+.card .card-footer img {
+    border-radius: 50%;
+}
+
+
+.card .card-footer .status {
+    color:  #6C7584;;
+}

@@ -1,0 +1,205 @@
+.site-header {
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    display: flex;
+    gap: 15px;
+}
+
+#sign-up {
+    padding: 2px 5px;
+    border-radius: 4px;
+    display: block;
+    background-color: #ADE2DF;
+}
+
+
+.section-container h1 {
+    font-size: 40px;
+}
+
+
+
+.section-container .desc {
+    max-width: 80%;
+    font-size: 12px;
+}
+
+
+.colored {
+    background-color: #ADE2DF;
+}
+
+.section-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.section-container.flex-column {
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.section-container.flex-column .download-links {
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.download-links a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.section-container.flex-row {
+    justify-content: space-evenly;
+}
+
+
+.company-info-item {
+    padding: 20px 50px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.section-container.flex-row {
+    justify-content: last baseline
+
+}
+
+.company-features .image-container{
+    max-width: 10%;
+    border-left: 1px solid #E8E8E8;
+}
+
+.company-features .info {
+    max-width: 750%;
+    border-left: 1px solid #E8E8E8;
+}
+
+.company-features .info a{
+    text-decoration: underline;
+}
+
+.company-features h5{
+    margin-bottom: 5px;
+}
+
+.pricing-plans .title{
+    text-align: center;
+    width: 100%;
+}
+
+.section-container .plans-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: 1px solid #E1E1E3;
+    border-radius: 20px;
+}
+
+.section-container .plans-container .plans {
+    gap: 20px;
+    display: flex;
+    padding: 0 10px;
+    max-width: 65%;
+}
+
+.standart-plan.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.standart-plan.plan:not(:last-child){
+    border-right: 1px solid #E1E1E3;;
+}
+
+.standart-plan h5 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.standart-plan ul {
+    padding-bottom: 15px;
+}
+
+.standart-plan .price {
+    padding: 5px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.standart-plan .plan-title {
+    border-bottom: 1px solid #E1E1E3;
+}
+
+.standart-plan a {
+    background-color: #ADE2DF;
+    padding: 5px 15px;
+    min-width: 80px;
+    border-radius: 6px;
+}
+
+.expand-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+}
+
+.expand-section h5 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.expand-section p {
+    text-align: start;
+    padding-bottom: 24px;
+}
+
+.expand-section a {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    min-width: 100%;
+    text-align: center;
+}
+
+.get-started h2 {
+    font-size: 48px;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.site-footer .text-footer { 
+    font-size: 12px;
+}
+
+
+
+
